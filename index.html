@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <form class="head">
+    <div class="per">
+    <h1>Form Submission</h1>
+    <div class="perfect">
+    <label for="first">First Name</label><br>
+    <input type="text" name="first" id="first" placeholder="Firstname"><br>
+    </div>
+    <div class="perfect">
+     <label for="last">Last Name</label><br>
+    <input type="text" name="last" id="last" placeholder="Last Name"><br>
+</div>
+<div class="perfect">
+    <label for="address1">Address Line 1:</label><br>
+    <input type="text" name="address1" id="address1" placeholder="Address Line 2"><br>
+    </div>
+    <div class="perfect">
+    <label for="address2">Address Line:2</label><br>
+    <input type="text" name="address2" id="address2" placeholder="Address Line 2:"><br>
+    </div>
+    <div class="perfect">
+    <label for="pin">PIN:</label><br>
+    <input type="number" name="pin" id="pin" placeholder="PIN"><br>
+    </div>
+    <br><label for="gender" >Gender:</label><br>
+    <div> <input type="radio" name="gender"  class="gender" value="Male">Male<input type="radio" class="gender" value="Female">Female</div>
+    <br><br>
+    <div class="atleast">Choice of Food:(must choose atleast 2 out of 5options)<br>
+<input type="checkbox" name="northIndian" id="north">
+<label for="north">North Indian</label><br>
+<input type="checkbox" name="southIndian" id="south">
+<label for="south">South Indian</label><br>
+<input type="checkbox" name="chinese" id="chinese">
+<label for="chinese">Chinese</label><br>
+<input type="checkbox" name="japanse" id="japanse">
+<label for="japanse">Japanse</label><br>
+<input type="checkbox" name="Seafood" id="Seafood">
+<label for="Seafood">Seafoos</label><br><br>
+<label for="State">State:</label><br>
+<input type="text" name="state" id="State" placeholder="State"><br>
+<label for="country">Country</label><br>
+<input type="text" name="country" id="country" placeholder="Country"><br><br>
+<input id="submitForm" type="button" onclick="value1()" value="Submit">
+
+    </div>
+</div>
+    <div class="temp">
+        <h1>Temporary Data base</h1>
+        <table>
+            <tr  >
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Address</th>
+                <th>pincode</th>
+                <th>Gender</th>
+                <th>Food</th>
+                <th>State</th>
+                <th>country</th>
+            </tr>
+
+        </table>
+</div>
+</form>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+<script src="script.js"></script>
+
+
+    
+</body>
+</html>
